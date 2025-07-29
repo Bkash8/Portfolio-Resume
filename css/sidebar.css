@@ -18,11 +18,15 @@
 }
 
 .sidebar a:hover {
-  text-decoration: underline;
+  text-decoration: none;         /* optional: remove underline */
+  background-color: #ffffff33;   /* semi-transparent white or any highlight color */
+  color: #000;                   /* text color on hover */
+  padding-left: 10px;            /* optional: slight indent for visual feedback */
+  border-radius: 4px;            /* optional: smooth corners */
 }
 
 .sidebar .social-icons a {
-  margin: 0 5px;
+  margin: 20px 5px;
   color: white;
 }
 

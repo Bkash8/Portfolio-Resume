@@ -15,3 +15,13 @@
 .dark-mode .sidebar .social-icons a {
   color: #ccc;
 }
+
+.sidebar a:hover {
+  background-color: #e0f7fa;
+  color: #007b8a;
+}
+
+.dark-mode .sidebar a:hover {
+  background-color: #ffffff22;
+  color: #fff;
+}
