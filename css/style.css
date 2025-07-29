@@ -1,0 +1,29 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #fff;
+  color: #000;
+}
+
+
+.content {
+  margin-left: 300px;
+  padding: 20px;
+}
+
+.intro {
+  font-size: 12px;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+

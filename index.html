@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dark-light-mode.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+</head>
+
+<body>
+    <div class="d-flex">
+        <div class="sidebar vh-50 overflow-auto">
+            <div class="text-center">
+            <h5>Bikash Prajapati</h5>
+            <br>
+            <img src="assets/bkash-pp.jpg" alt="Profile" class="rounded-circle mb-2" width="150" height="200">
+            <p class="intro">Hi, my name is Bikash Prajapati and I'm a System/Network engineer. Welcome to my personal website!</p>
+            </div>
+            <div class="social-icons text-center mb-3">
+            <a href="www.linkedin.com/in/bikash-prajapati-b34221235"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <a href="index.html"><i class="fas fa-user"></i>About Me</a>
+            <a href="portfolio.html"><i class="fas fa-laptop-code"></i>Portfolio</a>
+            <a href="resume.pdf" target="_blank"><i class="fas fa-file-alt"></i>Resume</a>
+            <a href="research.html"><i class="fas fa-microscope"></i>Research Core</a>
+            <a href="blog.html"><i class="fas fa-blog"></i>Blog</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
+            <button class="btn btn-dark mt-3 w-100" onclick="toggleDarkMode()">Toggle Mode</button>
+            
+        </div>
+
+        <div class="content flex-grow-1 pe-5">
+            <h1>Bikash Prajapati</h1>
+            <h5><i>System/Network Engineer</i></h5>
+        
+            <p>
+                A dedicated and detail-oriented System/Network Engineer with solid experience in managing IT infrastructure, network systems, and cloud-based environments. 
+                Skilled in designing and supporting secure, scalable, and high-performance network and system architectures, both on-premises and in the cloud. 
+                Proficient in AWS services with a strong understanding of cloud deployment, networking, and system administration. 
+                Known for resolving complex technical issues, optimizing system performance, and implementing cost-effective IT solutions. 
+                Committed to continuous learning and delivering reliable, secure, and efficient IT support to meet evolving business needs.
+                <br>
+            </p>
+            
+            <button class="btn btn-info">View Portfolio</button>
+            <button class="btn btn-secondary">View Resume</button>
+            <hr />
+
+            <h3>What I do</h3>
+            <p>A highly skilled Enterprise and Corporate Technical Support Specialist with expertise in network configuration, troubleshooting, and client support. 
+                Proficient in managing routers, switches, APs, and cloud-based networking solutions to ensure seamless connectivity. 
+                Experienced in network surveys, infrastructure optimization, and failover configurations (L3, BGP, Static) to enhance reliability. 
+                Strong problem-solving skills, with a proactive approach to resolving complex network issues.</p>
+            <br>
+
+            <!-- Add icons and descriptions here for skills -->
+
+            <a href="services.html" class="btn btn-outline-info">Services & Pricing</a>
+
+            <hr />
+
+            <h3>Testimonials</h3>
+            <div class="row">
+            <div class="col-md-4">
+                <blockquote></blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote></blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote></blockquote>
+            </div>
+            </div>
+        </div>
+    </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+
+</html>
